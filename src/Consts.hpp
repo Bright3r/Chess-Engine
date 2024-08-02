@@ -11,3 +11,5 @@ const Color clear = { 0, 0, 0, 0 };
 const Color aqua = { 0, 255, 255, 255 };
 const Color black = { 0, 0, 0, 255 };
 const Color white = { 255, 255, 255, 255 };
+const Color dark_green = { 26, 188, 85, 255 };
+const Color beige = { 237, 240, 216, 255 };

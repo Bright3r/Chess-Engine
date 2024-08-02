@@ -1,4 +1,4 @@
-SRC = src/main.cpp src/Piece.cpp
+SRC = src/main.cpp src/Piece.cpp src/Board.cpp
 CC_WEB = emcc
 CFLAGS_WEB = -I/home/chase/dev/libs/raylib/include -L/home/chase/dev/libs/raylib/lib -s USE_GLFW=3 -s WASM=1 -s ASYNCIFY -s FORCE_FILESYSTEM=1 -lraylib
 OUT_WEB = build/main.html

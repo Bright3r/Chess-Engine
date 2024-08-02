@@ -7,7 +7,7 @@
 
 enum PieceType {
   PAWN_WHITE, ROOK_WHITE, KNIGHT_WHITE, BISHOP_WHITE, QUEEN_WHITE, KING_WHITE, 
-  PAWN_BLACK, ROOK_BLACK, KNIGHT_BLACK, BISHOP_BLACK, QUEEN_BLACK, KING_BLACK
+  PAWN_BLACK, ROOK_BLACK, KNIGHT_BLACK, BISHOP_BLACK, QUEEN_BLACK, KING_BLACK, EMPTY
 };
 
 static const char* PIECE_FILE_PATHS[] = {
@@ -32,7 +32,7 @@ class Piece {
 
     Piece(PieceType piece_type);
     ~Piece();
-    void draw(int x, int y, int width, int height);
+    void draw(int x, int y);
 
   private:
     Texture2D getTexture(const char *filePath);
